@@ -15,7 +15,7 @@ const handleSelect = (key: any, keyPath: any) => {
         <el-menu class="el-menu" :default-active="activeIndex" mode="horizontal" :router="true">
             <el-menu-item index="/">HOME</el-menu-item>
             <el-menu-item index="/blog">BLOG</el-menu-item>
-            <el-menu-item index="3">TOOLS</el-menu-item>
+            <el-menu-item index="/tool">TOOLS</el-menu-item>
             <el-menu-item index="/logs">Logs</el-menu-item>
             <el-menu-item index="5">OTHER</el-menu-item>
         </el-menu>

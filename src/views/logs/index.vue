@@ -46,7 +46,7 @@ const deleteRow = (row) => {
 </script>
 
 <style lang="less" scoped>
-::v-deep .el-table {
+:deep(.el-table) {
     background-color: transparent;
     color: #fff;
     th.el-table__cell,
